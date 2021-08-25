@@ -37,6 +37,10 @@ input {
   padding: 0.5em;
 }
 
+#height, #width {
+  height: 10px;
+}
+
 h1, h2 {
   margin: 0px;
 }
