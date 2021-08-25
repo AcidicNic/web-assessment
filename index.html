@@ -3,34 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Web Assessment</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <section id="block-1" class="block">
-      <h1>Nicole Rocha Abadie</h1>
-      <p>FEW Assesment</p>
-    </section>
-    <section id="block-2" class="block">
-      <label for="height">Height</label>
-      <input type="number" name="height" value="">
+    <div id="block-wrapper">
+      <div class="block">
+        <h1>Nicole Rocha Abadie</h1>
+        <p>FEW Assesment</p>
+      </div>
 
-      <label for="width">Width</label>
-      <input type="number" name="width" value="">
+      <div class="block">
+        <label for="width">Width:</label>
+        <input type="number" name="width" value="100">
 
-      <label for="color">Color</label>
-      <input type="color" name="color" value="">
-    </section>
-    <section id="block-3" class="block">
-      <h1>Width</h1>
-      <p id=""></p>
-      <h1>Hieght</h1>
-      <p id=""></p>
-      <h1>Color</h1>
-      <p id=""></p>
-    </section>
-    <section id="block-4" class="block">
-      <div id="custom-box"></div>
-    </section>
-    <script type="text/javascript" src="/script.js"></script>
+        <label for="height">Height:</label>
+        <input type="number" name="height" value="100">
+
+        <label for="color">Color:</label>
+        <input type="color" name="color" value="#00CC33">
+      </div>
+
+      <div class="block">
+        <h2>Width</h2>
+        <span id="">100px</span>
+        <h2>Hieght</h2>
+        <span id="">100px</span>
+        <h2>Color</h2>
+        <span id="">#00CC33</span>
+      </div>
+
+      <div class="block">
+        <h1>Color</h1>
+        <div id="custom-box"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

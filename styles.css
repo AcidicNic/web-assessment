@@ -1,0 +1,42 @@
+body {
+  font-family: Helvetica;
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 7px;
+  padding: 14px;
+}
+
+#block-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+}
+
+label {
+  margin: 7px;
+}
+
+input {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+h1, h2 {
+  margin: 0px;
+}
+
+#custom-box {
+  height: 100px;
+  width: 100px;
+  background-color: #00CC33;
+  border: 1px solid black;
+}
