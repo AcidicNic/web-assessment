@@ -17,7 +17,7 @@ function updateBox() {
   box.style.height = `${height.value}px`;
   box.style.width = `${width.value}px`;
   box.style.backgroundColor = color.value;
-  heightText.textContent = height.value;
-  widthText.textContent = width.value;
+  heightText.textContent = `${height.value}px`;
+  widthText.textContent = `${width.value}px`;
   colorText.textContent = color.value;
 }
